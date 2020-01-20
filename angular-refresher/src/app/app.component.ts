@@ -6,9 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  persons: string[];
 
-  constructor() {
-    this.persons = ['Max', 'Manuel', 'Anna'];
-  }
 }
